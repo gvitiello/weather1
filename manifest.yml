@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: weather1
-  host: weather integration
+  name: ga weather integration
+  host: ga-weather-integration
   disk_quota: 1024M
   services:
   - CONVERSATION
