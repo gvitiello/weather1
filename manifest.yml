@@ -3,4 +3,11 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
+  name: weather1
+  host: weather1
   disk_quota: 1024M
+  services:
+  - CONVERSATION
+  env:
+    WORKSPACE_ID: b9a45b94-2c28-4347-9a4d-3ac2bb751374
+    WEATHER_KEY: 4fbd2904811a2e88
