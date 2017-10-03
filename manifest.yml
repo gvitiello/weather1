@@ -4,7 +4,7 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: weather1
-  host: weather1
+  host: weather integration
   disk_quota: 1024M
   services:
   - CONVERSATION
