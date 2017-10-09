@@ -237,7 +237,7 @@ if ( cloudantUrl ) {
 }
 
 function checkWeather(data) {
-  //return data.intents && data.intents.length > 0 && data.intents[0].intent === 'weather'
+    return data.intents && data.intents.length > 0 && data.intents[0].intent === 'weather';
     return data.entities && data.entities.length > 0 && data.entities[0].entity === 'sys-date';
 }
 
