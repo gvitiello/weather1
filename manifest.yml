@@ -8,6 +8,8 @@ applications:
   disk_quota: 1024M
   services:
   - GA CONVERSATION
+  - GA Weather
   env:
     WORKSPACE_ID: ece7c8a5-4a25-4d81-be3a-5f175a778b2a
-    WEATHER_KEY: 1aa20bda9b410f8d
+    WEATHER_URL: https://twcservice.mybluemix.net/api/weather
+
