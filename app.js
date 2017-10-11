@@ -104,7 +104,7 @@ function updateMessage(res, input, response) {
     var path = getLocationURL( response.context.long, response.context.lat );
 
     var options = {
-      host: 'api.wunderground.com',
+      host: 'api.openweathermap.org',
       path: path
     };
 
